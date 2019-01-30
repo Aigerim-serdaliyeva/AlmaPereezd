@@ -1,0 +1,20 @@
+@import './fonts';
+@import './_mixins/circle';
+
+$default_family: Roboto, Arial;
+$title_family: RobotoSlab, Arial;
+$font_size: 14px;
+$title_color: #262d3a;
+$text_color: #262d3a;
+
+$accent: #48b351;
+$blue: #262d3a;
+$gray: #8c959e;
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+
+$gutter: $grid-gutter-width;
